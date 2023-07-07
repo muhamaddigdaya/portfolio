@@ -47,7 +47,7 @@ const Community = (props: Props) => {
         <div className="bg-white hover:bg-purple-100  w-fit text-black p-4 space-y-2 border-4 w-fit border-black">
           <img src="/Button.png"  alt="Button Thumbnail" className="xl:w-500px lg:w-450 md:w-400 sm:w-200px"/>
           <h2 className="text-xl font-bold text-black bg-[#FFF6A6] w-fit p-2">Interactive Button</h2>
-          <p className="font-mono w-4/5">------------------</p>
+          <p className="font-mono w-4/5">Completed button interactions, made for you, ready to use and customize.</p>
         </div>
       </a>
 
