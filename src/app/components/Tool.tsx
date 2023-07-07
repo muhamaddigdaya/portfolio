@@ -5,7 +5,7 @@ type Props = {}
 
 const Tool = (props: Props) => {
   return (
-    <div className='flex flex-col items-start sm:items-center mt-8 ml-0 p-8 bg-pink-100 border border-8 border-black sm:border-4 w-fit space-y-8 hover:shadow-[10px_10px_0px_0px_#000] xl:shadow-inherit lg:shadow-[10px_10px_0px_0px_#000] duration-150 ease-in text-black'>
+    <div className='flex flex-col items-start sm:items-center xl:my-8 sm:my-4 ml-0 p-8 bg-pink-100 border border-8 border-black sm:border-4 w-fit space-y-8 hover:shadow-[10px_10px_0px_0px_#000] xl:shadow-inherit lg:shadow-[10px_10px_0px_0px_#000] duration-150 ease-in text-black'>
       <h2 className='text-5xl sm:text-2xl font-bold cursor-default'>Try it out</h2>
             <a href="https://muhamaddigdaya.github.io/percentage-calculator/" target="_blank">
                 <img src="/Calculator.png"  alt="UI Kit" className='xl:max-w-3xl lg:max-width-xl md:max-w-lg sm:max-w-[200px] sm:border-2 border-black border-4 hover:scale-[0.95] transition duration-150 ease-out mr-[0px]'/>
