@@ -5,6 +5,7 @@ import Community from "./components/Community";
 import Footer from "./components/Footer";
 import Tool from "./components/Tool";
 import Text from "./components/Text";
+import Head from "next/head";
 
 export default function Home() {
   return (
