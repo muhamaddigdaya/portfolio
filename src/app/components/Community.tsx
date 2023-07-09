@@ -6,7 +6,7 @@ type Props = {}
 const Community = (props: Props) => {
   return (
     <div className="flex sm:flex-col min-h-screen w-screen bg-[#A8A6FF] min-w-screen items-center justify-items-center justify-center p-8">
-      <header className="cursor-default font-extrabold sm:text-4xl xl:text-8xl xl:p-16 lg:p-0 md:p-0 sm:p-0 text-white hover:text-[#FFF59F] duration-300 ease-out">Figma Community</header>
+      <header className="cursor-default font-extrabold sm:text-4xl xl:text-8xl xl:p-16 lg:p-4 md:p-4 sm:p-4 text-white hover:text-[#FFF59F] duration-300 ease-out">Figma Community</header>
       <div className="grid xl:grid-cols-3 sm:grid-cols-none gap-8 text-black">
       <a href="https://www.figma.com/community/file/1207145809192122717" target="_blank">
         <div className="bg-white hover:bg-green-100 w-fit text-black p-4 space-y-2 border-4 w-fit border-black">
