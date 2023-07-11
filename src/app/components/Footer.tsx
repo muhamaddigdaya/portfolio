@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
           </a>
         </div>
         <div>
-            <img src="/NOSHADOWSMILE.png"  alt="smile :)" className='xl:w-[72px] lg:w-[72px] md:w-[72px] sm:w-[40px] animate-spin'/>
+            <Image fill src="/NOSHADOWSMILE.png"  alt="smile :)" className='xl:w-[72px] lg:w-[72px] md:w-[72px] sm:w-[40px] animate-spin'/>
         </div>
     </div>
   )
