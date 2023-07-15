@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { Suspense } from 'react'
-import Loading from './Loading'
 
 type Props = {}
 
 const Header = (props: Props) => {
   return (
     <div className="hero-section flex flex-col xl:items-start sm:items-center w-screen">
-        <Suspense fallback={<Loading />}>
+        <Suspense fallback={`loading...`}>
           <Image src="/SMILE.png" alt="SMILE!" width={120} height={120} className='animate-bounce'/>
         </Suspense>
         <header className='cursor-default font-extrabold sm:text-7xl xl:text-8xl sm:text-center mb-4'>Muhamad Digdaya</header>
