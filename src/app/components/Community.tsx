@@ -26,7 +26,7 @@ const Community = (props: Props) => {
       <Link href="https://www.figma.com/community/file/1131738974378358873/UI-Component---Interactive-Selection-Radio-Button(customizable)" target="_blank">
         <div className="bg-white hover:bg-blue-100 w-fit text-black p-4 space-y-2 border-4 w-fit border-black">
           <Image src="/Radio.png" width={1920} height={960} alt="Radio Thumbnail" className="xl:w-500px lg:w-450 md:w-400 sm:w-200px"/>
-          <h2 className="text-xl font-bold text-black bg-[#FFA149] w-fit p-2">Interactive Radio Button</h2>
+          <h2 className="text-xl font-bold text-black bg-[#FFCE4F] w-fit p-2">Interactive Radio Button</h2>
           <p className="font-mono w-4/5">Radio button pre-made for you to customize and match your project's style.</p>
         </div>
       </Link>
@@ -47,7 +47,7 @@ const Community = (props: Props) => {
       <Link href="https://www.figma.com/community/file/1209140581871190509/UI-Component---Interactive-Button-(customizable)" target="_blank">
         <div className="bg-white hover:bg-purple-100  w-fit text-black p-4 space-y-2 border-4 w-fit border-black">
           <Image src="/Button.png" width={1920} height={960} alt="Button Thumbnail" className="xl:w-500px lg:w-450 md:w-400 sm:w-200px"/>
-          <h2 className="text-xl font-bold text-black bg-[#FFF6A6] w-fit p-2">Interactive Button</h2>
+          <h2 className="text-xl font-bold text-black bg-[#FF932F] w-fit p-2">Interactive Button</h2>
           <p className="font-mono w-4/5">Completed button interactions, made for you, ready to use and customize.</p>
         </div>
       </Link>
