@@ -23,7 +23,7 @@ export default function Home() {
         <Featured />
       </div>
       <Community />
-      <div className="tool-section bg-pink-300 flex xl:flex-row sm:flex-col md:flex-col lg:flex-col items-center w-screen font-mono text-black xl:space-x-8 sm:space-x-0 sm:space-x-0 xl:px-40 sm:px-0">
+      <div className="tool-section bg-pink-300 flex xl:flex-row sm:flex-col md:flex-col lg:flex-col items-center w-screen font-mono text-black xl:space-x-8 sm:space-x-0 xl:px-40 sm:px-0">
         <Tool />
         <Text />
       </div>
