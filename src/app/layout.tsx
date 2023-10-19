@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Muhamad Digdaya',
-  description: 'UI/UX Design | Figma Community | ',
+  description: 'A designer that happens to help other designers save their time on designing. Be the next one to be part of my design. UI/UX - Interaction Design',
 }
 
 export default function RootLayout({
