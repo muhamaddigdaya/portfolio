@@ -6,8 +6,8 @@ type Props = {}
 
 const Community = (props: Props) => {
   return (
-    <div className="flex sm:flex-col min-h-screen w-screen bg-[#A8A6FF] min-w-screen items-center justify-items-center justify-center p-8">
-      <header className="cursor-default font-extrabold sm:text-4xl xl:text-8xl xl:p-16 lg:p-10 md:p-8 sm:p-8 text-white hover:text-[#FFF59F] duration-300 ease-out">Open Source Contribution</header>
+    <div className="flex sm:flex-col min-h-screen w-screen bg-[#A6FAFF] min-w-screen items-center justify-items-center justify-center p-8">
+      <header className="cursor-default font-extrabold sm:text-4xl xl:text-8xl xl:p-16 lg:p-10 md:p-8 sm:p-8 text-black hover:text-[#28377a] duration-300 ease-out">Open Source Contribution</header>
       <div className="grid xl:grid-cols-3 sm:grid-cols-none gap-8 text-black">
         <Link href="https://www.figma.com/community/file/1207145809192122717" target="_blank">
           <div className="bg-white hover:bg-green-100 text-black p-4 space-y-2 border-4 w-fit border-black">
@@ -47,7 +47,7 @@ const Community = (props: Props) => {
         <Link href="https://www.figma.com/community/file/1209140581871190509/UI-Component---Interactive-Button-(customizable)" target="_blank">
           <div className="bg-white hover:bg-purple-100 text-black p-4 space-y-2 border-4 w-fit border-black">
             <Image src="/Button.png" width={1920} height={960} alt="Button Thumbnail" className="xl:w-500px lg:w-450 md:w-400 sm:w-200px" />
-            <h2 className="text-xl font-bold text-black bg-[#FF932F] w-fit p-2">Interactive Button</h2>
+            <h2 className="text-xl font-bold text-black bg-[#A6FAFF] w-fit p-2">Interactive Button</h2>
             <p className="font-mono w-4/5">Completed button interactions, made for you, ready to use and customize.</p>
           </div>
         </Link>
