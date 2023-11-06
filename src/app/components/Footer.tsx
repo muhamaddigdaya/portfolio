@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
-
+import { Suspense } from 'react'
 type Props = {}
 
 const Footer = (props: Props) => {
@@ -22,7 +22,9 @@ const Footer = (props: Props) => {
         </Link>
       </div>
       <div>
-        <Image src="/NOSHADOWSMILE.png" width={120} height={120} alt="smile :)" className='xl:w-[72px] lg:w-[72px] md:w-[72px] sm:w-[40px] animate-spin' />
+        <Suspense fallback="loading...">
+          <Image src="/NOSHADOWSMILE.png" width={120} height={120} alt="smile :)" className='xl:w-[72px] lg:w-[72px] md:w-[72px] sm:w-[40px] animate-spin' />
+        </Suspense>
       </div>
     </div>
   )
