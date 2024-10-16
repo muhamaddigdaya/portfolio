@@ -32,7 +32,7 @@ const Community = (props: Props) => {
             <Suspense fallback="loading...">
               <Image src="/Radio.png" width={1920} height={960} alt="Radio Thumbnail" className="xl:w-500px lg:w-450 md:w-400 sm:w-200px border-2 border-black " />
             </Suspense>
-            <h2 className="text-xl font-bold text-black bg-[#FFCE4F] border-2 border-black w-fit p-2">Interactive Radio Button</h2>
+            <h2 className="text-xl font-bold text-black bg-[#FFE944] border-2 border-black w-fit p-2">Interactive Radio Button</h2>
             <p className="font-mono w-4/5">Radio button pre-made for you to customize and match your project's style.</p>
           </div>
         </Link>
